@@ -1,0 +1,344 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84C7656E1FD8373A00BDD2DC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7656D1FD8373A00BDD2DC /* AppDelegate.swift */; };
+		84C765701FD8373A00BDD2DC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C7656F1FD8373A00BDD2DC /* ViewController.swift */; };
+		84C765731FD8373A00BDD2DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C765711FD8373A00BDD2DC /* Main.storyboard */; };
+		84C765761FD8373A00BDD2DC /* KidsFM.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84C765741FD8373A00BDD2DC /* KidsFM.xcdatamodeld */; };
+		84C765781FD8373A00BDD2DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84C765771FD8373A00BDD2DC /* Assets.xcassets */; };
+		84C7657B1FD8373A00BDD2DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84C765791FD8373A00BDD2DC /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84C7656A1FD8373A00BDD2DC /* KidsFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84C7656D1FD8373A00BDD2DC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84C7656F1FD8373A00BDD2DC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84C765721FD8373A00BDD2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84C765751FD8373A00BDD2DC /* KidsFM.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KidsFM.xcdatamodel; sourceTree = "<group>"; };
+		84C765771FD8373A00BDD2DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84C7657A1FD8373A00BDD2DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84C7657C1FD8373A00BDD2DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84C765671FD8373A00BDD2DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84C765611FD8373A00BDD2DC = {
+			isa = PBXGroup;
+			children = (
+				84C7656C1FD8373A00BDD2DC /* KidsFM */,
+				84C7656B1FD8373A00BDD2DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84C7656B1FD8373A00BDD2DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84C7656A1FD8373A00BDD2DC /* KidsFM.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84C7656C1FD8373A00BDD2DC /* KidsFM */ = {
+			isa = PBXGroup;
+			children = (
+				84C7656D1FD8373A00BDD2DC /* AppDelegate.swift */,
+				84C7656F1FD8373A00BDD2DC /* ViewController.swift */,
+				84C765711FD8373A00BDD2DC /* Main.storyboard */,
+				84C765771FD8373A00BDD2DC /* Assets.xcassets */,
+				84C765791FD8373A00BDD2DC /* LaunchScreen.storyboard */,
+				84C7657C1FD8373A00BDD2DC /* Info.plist */,
+				84C765741FD8373A00BDD2DC /* KidsFM.xcdatamodeld */,
+			);
+			path = KidsFM;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84C765691FD8373A00BDD2DC /* KidsFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84C7657F1FD8373A00BDD2DC /* Build configuration list for PBXNativeTarget "KidsFM" */;
+			buildPhases = (
+				84C765661FD8373A00BDD2DC /* Sources */,
+				84C765671FD8373A00BDD2DC /* Frameworks */,
+				84C765681FD8373A00BDD2DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KidsFM;
+			productName = KidsFM;
+			productReference = 84C7656A1FD8373A00BDD2DC /* KidsFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84C765621FD8373A00BDD2DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Zakhar Rudenko";
+				TargetAttributes = {
+					84C765691FD8373A00BDD2DC = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84C765651FD8373A00BDD2DC /* Build configuration list for PBXProject "KidsFM" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84C765611FD8373A00BDD2DC;
+			productRefGroup = 84C7656B1FD8373A00BDD2DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84C765691FD8373A00BDD2DC /* KidsFM */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84C765681FD8373A00BDD2DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C7657B1FD8373A00BDD2DC /* LaunchScreen.storyboard in Resources */,
+				84C765781FD8373A00BDD2DC /* Assets.xcassets in Resources */,
+				84C765731FD8373A00BDD2DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84C765661FD8373A00BDD2DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C765701FD8373A00BDD2DC /* ViewController.swift in Sources */,
+				84C7656E1FD8373A00BDD2DC /* AppDelegate.swift in Sources */,
+				84C765761FD8373A00BDD2DC /* KidsFM.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84C765711FD8373A00BDD2DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C765721FD8373A00BDD2DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84C765791FD8373A00BDD2DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84C7657A1FD8373A00BDD2DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84C7657D1FD8373A00BDD2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84C7657E1FD8373A00BDD2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84C765801FD8373A00BDD2DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65266FNMNL;
+				INFOPLIST_FILE = KidsFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xprojects.KidsFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84C765811FD8373A00BDD2DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 65266FNMNL;
+				INFOPLIST_FILE = KidsFM/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xprojects.KidsFM;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84C765651FD8373A00BDD2DC /* Build configuration list for PBXProject "KidsFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C7657D1FD8373A00BDD2DC /* Debug */,
+				84C7657E1FD8373A00BDD2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84C7657F1FD8373A00BDD2DC /* Build configuration list for PBXNativeTarget "KidsFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84C765801FD8373A00BDD2DC /* Debug */,
+				84C765811FD8373A00BDD2DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84C765741FD8373A00BDD2DC /* KidsFM.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84C765751FD8373A00BDD2DC /* KidsFM.xcdatamodel */,
+			);
+			currentVersion = 84C765751FD8373A00BDD2DC /* KidsFM.xcdatamodel */;
+			path = KidsFM.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84C765621FD8373A00BDD2DC /* Project object */;
+}
